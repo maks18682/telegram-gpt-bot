@@ -1,4 +1,5 @@
 import os
+print("TELEGRAM_TOKEN from env:", repr(os.getenv("TELEGRAM_TOKEN")))
 import logging
 import requests
 import nest_asyncio
