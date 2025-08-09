@@ -15,7 +15,7 @@ logging.basicConfig(
 )
 
 # Переменные окружения
-TELEGRAM_TOKEN = os.getenv("7707276762:AAHFo53byakbAIXBTLE6sEUmwY4BvRMgqjk")
+TELEGRAM_TOKEN = os.getenv("7707276762:AAHFo53byakbAIXBTLE6sEUmwY4BvRMgqjk").strip() 
 OPENROUTER_API_KEY = os.getenv("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")
 
 # Команда /start
